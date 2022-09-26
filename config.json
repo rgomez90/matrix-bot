@@ -1,0 +1,19 @@
+{
+  "command_prefix": "!c",
+  "matrix": {
+    "user": "bot",
+    "user_id": "@bot:example.com",
+    "password": "yourPassword",
+    "homeserver_url": "https://example.com"
+  },
+  "quarto_command": "quarto render",
+  "download_folder": "./downloads",
+  "whitelist_rooms": [],
+  "blacklist_rooms": [],
+  "reaction": {
+    "enabled": "True",
+    "ok_msg": "💚 Converted! ✅",
+    "error_msg": "❌ Error converting ❌"
+  }
+
+}
